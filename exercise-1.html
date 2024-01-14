@@ -72,6 +72,12 @@
 			gap: 2rem;
 		}
 
+		#media video {
+			border: 2px solid rgb(36, 27, 24);
+			border-radius: 10px;
+			object-fit: cover;
+		}
+
 		/* Air */
 	</style>
 </head>
@@ -99,7 +105,9 @@
 
 		<div id="media">
 			<!-- Air -->
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/k0Y8_i0xEEc?si=sux0V6neRXZ-26hH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<!-- <iframe style="border-radius: 20px;" width="560" height="315" src="https://www.youtube.com/embed/k0Y8_i0xEEc?si=sux0V6neRXZ-26hH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+			<video src="videos/video-1@c.mp4" width="640" height="320" controls loop muted  poster="images/gallery-1.jpg"> Your browser does not support HTML5 video tag</video>
 		</div>
 	</section>
 </body>
