@@ -52,13 +52,14 @@
 		}
 
 		/* Air */
+		/* it's way easier to specify the transition on the elemnt selector as it covers transition on all events */
 		.btn {
 			/* transition-property: background-color;
 			transition-duration: .4s;
 			transition-timing-function: ease-in-out;
 			transition-delay: 1s; */
-			/* transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s ease-in-out; */
-			transition: all .4s ease-in-out
+			transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s ease-in-out;
+			/* transition: all .4s ease-in-out */
 		}
 
 		.btn:hover {
